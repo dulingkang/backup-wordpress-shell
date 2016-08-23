@@ -10,14 +10,19 @@ You need to change the shell:
 /var/backup
 ```
 - 3. mysql config
-input your wordpress db username password and dbname, the destination export folder is:
-```
-sqlPath="$destDir/wordpress.sql"
+input your wordpress db username password and dbname,
 ```
 user="dbuser"
 password="yourdbpassword"
 dbname="wordpress"
 ```
+
+the destination export sql folder is:
+
+```
+sqlPath="$destDir/wordpress.sql"
+```
+
 ## process
 - destDir is automatic created use this format: "wordpress160823", the sourceFolder will copy into this folder, and wordpress.sql also exported to this folder.
 - And last, destDir will gzip to this format: "wordpress160823.tar.gz", the follder "wordpress160823" will be removed"
