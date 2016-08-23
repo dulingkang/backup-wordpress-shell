@@ -9,5 +9,5 @@ You need to change the shell:
 ```
 /var/backup
 ```
-- destDir is automatic create use this format: "wordpress160823", the sourceFolder will copy into this folder, and wordpress.sql also exported to this folder.
+- destDir is automatic created use this format: "wordpress160823", the sourceFolder will copy into this folder, and wordpress.sql also exported to this folder.
 - And last, destDir will gzip to this format: "wordpress160823.tar.gz", the follder "wordpress160823" will be removed"
